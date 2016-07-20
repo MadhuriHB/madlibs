@@ -1,1 +1,24 @@
-There once was a {{ color }} {{ noun }} sitting in the Hackbright Lab. When {{ person }} went to pick it up, it burst into flames in a totally {{ adjective }} way.
+
+<!DOCTYPE html>
+
+    <head>
+
+        <link rel="stylesheet" href="..static/madlibs.css">
+    </head>
+
+
+
+
+        <p>
+            There once was a {{ color }} {{ noun }} sitting in the Hackbright Lab. When {{ person }} went to pick it up, it burst into flames in a totally {{ adjective }} way.
+        </p>    
+
+            <h2>Your favorite animals are:</h2>
+            <ul>
+                {% for animal in animals %}
+                <li>{{animal}}</li>
+                {% endfor %} 
+            </ul>
+  
+
+
