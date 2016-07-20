@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <title>A Compliment</title>
+</head>
+<body>
+    Hi {{ person }}! I think you're {{ compliment }}!
+    
+    <!-- on submit, go to show_madlib_form() function -->
+    <form action="/game">
+        Would you like to play a game?<br>
+        <label> Yes <input type="radio" name="response" value="yes"></label> 
+        <label>No <input type="radio" name="response" value="no"> </label><br>
+       <input type="submit"> 
+
+
+    </form>
+
+</body>
+</html>
